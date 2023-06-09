@@ -1,0 +1,60 @@
+/* NAVIGATION BAR CSS  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1 rem;
+    padding:0px 10px;
+}
+/* HOME CSS  */
+#home{
+    height:258px;
+}
+#home::before{
+    height:799px;
+}
+.headi{
+    font-size: 1rem;
+}
+.headi::before{
+    height:2px;
+    padding:13px 2px;
+    display: block;
+}
+/* CATEGORY CSS  */
+#category{
+    flex-direction: column;
+}
+#category .box{
+    width:119px;
+    height:36vh;
+}
+#category .box img{
+    height: auto;
+    width:146px;
+}
+/* SPONSERS CSS */
+#sponser{
+    flex-wrap: wrap;
+}
+#sponser img{
+    width:40px;
+    height: auto;
+}
+#sponser .sponseritem{
+    padding:20px -14px;
+}
+/* CONTACT FORM CSS */
+#contact-box form{
+    width:80%;
+}
+#contact-box{
+    padding:11px 95px;
+}
+#contact-box label{
+    font-size: 1rem;
+}
+/* FOOTER CSS  */
+footer{
+    font-size: 0.8rem;
+}
